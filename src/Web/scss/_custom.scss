@@ -1,0 +1,27 @@
+// Here you can add other styles
+
+.k-grid-table td {
+  text-align: right !important;
+}
+
+body {
+  font-family: Shabnam;
+}
+
+.Toastify__toast {
+  font-family: Shabnam!important;
+  text-align: right!important;
+  font-size: .9em;
+}
+
+button.k-button.k-button-md.k-button-rectangle[title*="Clear"] {
+  display: none
+}
+
+th[aria-label*="Filter"]:not(.non-has-last th):last-child{
+  display: none;
+}
+
+*[dir=rtl] .btn-close {
+  margin-left: 0 !important;
+}
